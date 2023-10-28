@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__hero {
+  height: 150px;
+  background-image: url(./hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card {
+  width: 420px;
+  color: #60a0b6;
+  box-shadow: -14px -16px 2px #eef4f7;
+}
+
+.card__content {
+  padding: 16px;
+}
+
+.card__header {
+  margin-bottom: 16px;
+  font-size: 26px;
+}

@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  max-width: 520px;
+  border: 1px solid #70b4cc;
+  color: #60a0b6;
+  box-shadow: -14px -16px 2px #eef4f7;
+}
+
+.card__hero {
+  background-image: url(./hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card__col {
+  padding: 16px;
+}
+
+.card__header {
+  margin-bottom: 16px;
+  font-size: 26px;
+}
+
+.card__content {
+  margin-bottom: 16px;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card__btn {
+  width: 120px;
+  color: #60a0b6;
+  border: none;
+  padding: 8px 16px;
+  outline: none;
+}
+
+.card__btn:hover {
+  cursor: pointer;
+}

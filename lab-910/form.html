@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="form.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form name="form">
+        <fieldset class="form-container">
+          <div class="title">Create an account</div>
+          <input
+            class="input"
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Username"
+          />
+          <span class="error-message"></span>
+          <input
+            class="input"
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Email Address"
+          />
+          <span class="error-message"></span>
+          <input
+            class="input"
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+          />
+          <span class="error-message"></span>
+          <input
+            class="input"
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            placeholder="Confirm Password"
+          />
+          <span class="error-message"></span>
+          <div class="container-checkbox">
+            <label>
+              <input
+                class="input-checkbox"
+                type="checkbox"
+                id="keep-logged"
+                name="keep-logged"
+              />Keep me logged in
+            </label>
+          </div>
+          <button class="button" id="reg-btn">Register</button>
+        </fieldset>
+      </form>
+    </div>
+    <script src="form.js"></script>
+  </body>
+</html>
